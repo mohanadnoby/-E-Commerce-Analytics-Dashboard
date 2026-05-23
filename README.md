@@ -1,55 +1,35 @@
-# 📊 E-Commerce Sales Analytics Project
+ # E-Commerce Analytics Dashboard
 
-## 📌 Overview
-This project analyzes an e-commerce dataset by building a relational database in SQL Server and creating an interactive dashboard in Power BI to extract business insights.
+## Project Overview
+This project analyzes e-commerce sales data to uncover business insights and improve decision-making.
 
----
-
-## 🛠 Tools Used
+## Tools Used
+- Python
+- Pandas
 - SQL Server
 - Power BI
-- Excel (Data cleaning)
+- Jupyter Notebook
 
----
+## Project Workflow
+1. Data Cleaning using Python
+2. Database Design (ERD)
+3. SQL Data Modeling
+4. Dashboard Development in Power BI
 
-## 🗄 Database Design
-The database consists of 5 main tables:
+## Dashboard Preview
+![Dashboard](Dashboard.jpg)
 
-- Customers
-- Products
-- Orders
-- OrderDetails
-- Payments
+## ERD
+![ERD](ERD.jpg)
 
-Relationships were created using Primary and Foreign Keys.
+## Files Included
+- ecommerce_dataset.xlsx
+- data_cleaning.ipynb
+- database.sql
+- Power BI Dashboard.pbix
 
----
-
-## 📊 Key Dashboards
-
-### 1. Sales by Month
-Shows monthly revenue trends.
-
-### 2. Top Products
-Displays best-selling products by quantity.
-
-### 3. Payment Methods
-Shows distribution of payment methods.
-
-### 4. Order Status
-Tracks order completion and cancellations.
-
-### 5. Top Customers
-Identifies highest spending customers.
-
----
-
-## 🔍 Key Insights
-- Identified top-selling products
-- Analyzed customer purchasing behavior
-- Found most used payment methods
-- Tracked monthly sales performance
-
----
-
-## 📁 Project Structure
+## Key Insights
+- Top-selling products
+- Monthly sales trends
+- Customer behavior analysis
+- Revenue performance analysis
